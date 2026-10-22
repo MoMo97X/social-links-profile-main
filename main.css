@@ -26,7 +26,7 @@ body {
   display: grid;
   place-content: center;
 
-  font-family: inter;
+  font-family: inter, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   background-color: var(--Grey-900);
 
   min-height: 100vh;
@@ -70,7 +70,7 @@ img {
 
 .profile-name {
   font-size: 1.5rem;
-  margin-bottom: 0;
+  margin-block-end: 0;
 }
 
 .profile-meta {
@@ -84,7 +84,7 @@ img {
   color: var(--White);
 
   font-size: 0.75rem;
-  margin-bottom: 0;
+  margin-block-end: 0;
 }
 
 .profile-skills {
@@ -94,7 +94,7 @@ img {
 }
 
 .profile-skills li {
-  margin-top: 0.5rem;
+  margin-block-start: 0.5rem;
   padding: 1rem 2.5rem;
   width: 100%;
 
@@ -118,7 +118,7 @@ img {
 /* ---------- Media Queries -----------*/
 @media (min-width: 40rem) {
   .profile-card {
-    width: 400px;
+    width: 25rem;
     padding: 2.5rem;
   }
 
@@ -126,6 +126,12 @@ img {
     color: var(--Green);
 
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 900;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .profile-card {
+    transition: none;
   }
 }
