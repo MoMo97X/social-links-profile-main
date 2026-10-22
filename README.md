@@ -29,8 +29,8 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Repo](https://github.com/MoMo97X/social-links-profile-main)
+- Live Site URL: [Front-end Mentor live](https://momo97x.github.io/social-links-profile-main/)
 
 ## My process
 
@@ -44,9 +44,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+#### Naming convention's and best practice's
 
 ```html
 <h1 class="profile-name">Jessica Randall</h1>
@@ -54,14 +52,11 @@ To see how you can add code snippets, see below:
 <p class="profile-bio">"Front-end developer and avid reader."</p>
 ```
 
-- Using best practices with naming conventions.
--
-
 ## Author
 
-- Website - [GitHub/MoMo97x](https://www.your-site.com)
+- Website - [@MoMo97x](https://github.com/MoMo97X/social-links-profile-main)
 - Frontend Mentor - [@MuhammedArrujbani](https://www.frontendmentor.io/profile/MuhammedArrujbani)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+Thanks to the Frontend Mentor community for providing realistic design specs and challenges that mirror real-world front-end engineering projects.
